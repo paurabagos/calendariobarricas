@@ -1131,7 +1131,7 @@ h1, h2, h3, h4, h5,
   height: 600px;
   width: auto;
   position: relative;
-  right: 70%;
+  right: 40%;
 }
 
  .team-vs .team-2.manpower {
@@ -1155,4 +1155,11 @@ h1, h2, h3, h4, h5,
 
 .custom-table.manpower2 thead tr th  {
   background-color: #e67c25;
+}
+
+.logo-fix{
+  right: 15% !important;
+  @media screen and (max-width: 600px){
+    right: 25% !important;
+  }
 }
