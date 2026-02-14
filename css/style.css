@@ -293,7 +293,7 @@ h1, h2, h3, h4, h5,
     padding-left: 7rem;
     padding-right: 7rem; }
   .site-navbar .site-navigation.border-bottom {
-    border-bottom: 1px solid #f3f3f4 !important; }
+    border-bottom: 1px solid #00235d !important; }
   .site-navbar .site-navigation .site-menu {
     margin-bottom: 0; }
     .site-navbar .site-navigation .site-menu .active > a {
@@ -306,7 +306,7 @@ h1, h2, h3, h4, h5,
         left: 20px;
         right: 20px;
         height: 2px;
-        background: #fff; }
+        background: #00235d; }
     .site-navbar .site-navigation .site-menu a {
       text-decoration: none !important;
       display: inline-block; }
@@ -314,15 +314,15 @@ h1, h2, h3, h4, h5,
       display: inline-block; }
       .site-navbar .site-navigation .site-menu > li > a {
         padding: 5px 20px;
-        color: #fff;
+        color: #00235d;
         font-size: 12px;
         letter-spacing: .1rem;
         text-transform: uppercase;
-        font-weight: 400;
+        font-weight: 600;
         display: inline-block;
         text-decoration: none !important; }
         .site-navbar .site-navigation .site-menu > li > a:hover {
-          color: #fff; }
+          color: #00235d; }
     .site-navbar .site-navigation .site-menu .has-children {
       position: relative; }
       .site-navbar .site-navigation .site-menu .has-children > a {
