@@ -1134,6 +1134,16 @@ h1, h2, h3, h4, h5,
   right: 40%;
 }
 
+.post-entry a img.tequila {
+  right: 0%;
+  @media screen and (max-width: 600px){
+    right: 23%;
+  }
+    @media screen and (min-width: 601px) and (max-width: 900px){
+    right: 25%;
+  }
+}
+
  .team-vs .team-2.manpower {
   background-color: #3b84b6;
 }
@@ -1162,6 +1172,10 @@ h1, h2, h3, h4, h5,
   @media screen and (max-width: 600px){
     right: 25% !important;
   }
+    @media screen and (min-width: 767px) and (max-width: 821px){
+    right: 33.3% !important;
+  }
+
 }
 
 .text-blue {
