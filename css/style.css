@@ -1135,12 +1135,21 @@ h1, h2, h3, h4, h5,
 }
 
 .post-entry a img.tequila {
-  right: 0%;
-  @media screen and (max-width: 600px){
-    right: 23%;
+  right: 15%;
+  @media screen and (max-width: 376px){
+    right: 37%;
   }
-    @media screen and (min-width: 601px) and (max-width: 900px){
+    @media screen and (min-width: 377px) and (max-width: 391px){
+    right: 33.3%;
+  }
+    @media screen and (min-width: 392px) and (max-width: 600px){
     right: 25%;
+  }
+      @media screen and (min-width: 601px) and (max-width: 913px){
+    right: 33%;
+  }
+        @media screen and (min-width: 914px) {
+    height: 700px;
   }
 }
 
