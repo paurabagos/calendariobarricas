@@ -702,7 +702,7 @@ h1, h2, h3, h4, h5,
     position: relative;
     z-index: 2; }
     .team-vs .team-details img {
-      width: 20px; }
+      max-width: 20px; }
   .team-vs .team-1, .team-vs .team-2 {
     padding: 30px; }
   .team-vs .team-2 {
@@ -1189,3 +1189,15 @@ h1, h2, h3, h4, h5,
 
 .text-blue {
   color: #00235d; }
+
+
+.team-vs .cisa-rojo.team-2:before {
+      background: #ee1e46;
+}
+
+.title-section.cisa-rojo .heading:before {
+      background: #ee1e46 !important; }
+
+.custom-table.cisa-rojo thead tr th  {
+    background: #ee1e46;
+}
