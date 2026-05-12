@@ -1458,7 +1458,7 @@ h5,
   height: 600px;
   width: auto;
   position: relative;
-  right: 40%;
+  right: 36%;
 }
 
 .post-entry a img.tequila {
@@ -1469,7 +1469,10 @@ h5,
   @media screen and (min-width: 377px) and (max-width: 391px) {
     right: 33.3%;
   }
-  @media screen and (min-width: 392px) and (max-width: 600px) {
+  @media screen and (min-width: 392px) and (max-width: 428px) {
+    right: 28%;
+  }
+  @media screen and (min-width: 429px) and (max-width: 600px) {
     right: 25%;
   }
   @media screen and (min-width: 601px) and (max-width: 913px) {
@@ -1488,7 +1491,10 @@ h5,
   @media screen and (min-width: 377px) and (max-width: 391px) {
     right: 26.5%;
   }
-  @media screen and (min-width: 392px) and (max-width: 600px) {
+  @media screen and (min-width: 392px) and (max-width: 428px) {
+    right: 22.5%;
+  }
+  @media screen and (min-width: 429px) and (max-width: 600px) {
     right: 19%;
   }
   @media screen and (min-width: 601px) and (max-width: 913px) {
