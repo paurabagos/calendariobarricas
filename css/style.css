@@ -1001,7 +1001,7 @@ h5,
 }
 .latest-news .post-entry .caption .caption-inner {
   position: absolute;
-  bottom: 30px;
+  bottom: 0;
   left: 30px;
   right: 30px;
 }
@@ -1455,54 +1455,8 @@ h5,
 }
 
 .post-entry a img {
-  height: 600px;
-  width: auto;
-  position: relative;
-  right: 36%;
-}
-
-.post-entry a img.tequila {
-  right: 15%;
-  @media screen and (max-width: 376px) {
-    right: 37%;
-  }
-  @media screen and (min-width: 377px) and (max-width: 391px) {
-    right: 33.3%;
-  }
-  @media screen and (min-width: 392px) and (max-width: 428px) {
-    right: 28%;
-  }
-  @media screen and (min-width: 429px) and (max-width: 600px) {
-    right: 25%;
-  }
-  @media screen and (min-width: 601px) and (max-width: 913px) {
-    right: 33%;
-  }
-  @media screen and (min-width: 914px) {
-    height: 700px;
-  }
-}
-
-.post-entry a img.tequila.first {
-  right: 9%;
-  @media screen and (max-width: 376px) {
-    right: 31%;
-  }
-  @media screen and (min-width: 377px) and (max-width: 391px) {
-    right: 26.5%;
-  }
-  @media screen and (min-width: 392px) and (max-width: 428px) {
-    right: 22.5%;
-  }
-  @media screen and (min-width: 429px) and (max-width: 600px) {
-    right: 19%;
-  }
-  @media screen and (min-width: 601px) and (max-width: 913px) {
-    right: 26.5%;
-  }
-  @media screen and (min-width: 914px) {
-    height: 700px;
-  }
+  height: auto;
+  width: 100%;
 }
 
 .team-vs .team-2.manpower {
