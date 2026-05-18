@@ -1508,3 +1508,49 @@ h5,
 .custom-table.cisa-rojo thead tr th {
   background: #ee1e46;
 }
+
+
+.container-group {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 24px;
+}
+
+.group-card {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
+  color: #222;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  text-align: left;
+  font-size: 28px;
+  padding-bottom: 16px;
+}
+
+td {
+  padding: 10px 0;
+  font-size: 20px;
+}
+
+.country-cell {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.flag {
+  width: 36px;
+  height: 36px;
+  object-fit: cover;
+}
