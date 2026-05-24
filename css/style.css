@@ -1553,3 +1553,7 @@ td {
   height: 36px;
   object-fit: cover;
 }
+
+.little-less-dark {
+  background-color: red !important;
+}
