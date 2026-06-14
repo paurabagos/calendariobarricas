@@ -13,7 +13,7 @@
     --dark-bg: #1a1a2e;
     --navy: #0d2235;
     --blue: #1a3a6e;
-    --gold: #f0c040;
+    --gold: #cbae40;
     --green-mid: #007a50;
     --green: #1a9e60;
     --lime: #b5cc30;
@@ -121,6 +121,7 @@ body {
     border-bottom: 1px solid #eee;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     gap: 0.3rem;
 }
 .gc li:last-child {
@@ -249,12 +250,12 @@ body {
 
 /* special match variants */
 .m.final {
-    border-color: var(--gold);
+    border-color: var(--blue);
     border-width: 3px;
     border-radius: 8px;
 }
 .m.final .m-date {
-    background: var(--navy);
+    background: var(--gold);
     font-size: 0.66rem;
     padding: 0.2rem 0.4rem;
 }
@@ -266,7 +267,7 @@ body {
     background: #1a2a1a;
 }
 .m.bronze .m-date {
-    background: #7a5200;
+    background: #b56d2b;
 }
 
 /* World Champions badge */
@@ -286,7 +287,7 @@ body {
 .footnote {
     background: var(--teal);
     text-align: center;
-    padding: 0.6rem 1rem;
+    padding: 3rem 1rem;
     font-size: 0.65rem;
     color: rgba(255, 255, 255, 0.6);
 }
