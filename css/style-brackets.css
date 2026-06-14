@@ -133,7 +133,7 @@ body {
 
 /* ═══════════════════ BRACKET SHELL ═══════════════════ */
 .bracket-area {
-    background: linear-gradient(160deg, var(--green-mid) 0%, var(--green) 55%, var(--blue) 100%);
+    background: #1a2e4f;
     padding: 1rem 0.5rem 1.5rem;
     overflow-x: auto;
 }
@@ -285,7 +285,7 @@ body {
 
 /* ═══════════════════ FOOTNOTE ═══════════════════ */
 .footnote {
-    background: black;
+    background: var(--navy);
     text-align: center;
     padding: 3rem 1rem;
     font-size: 0.65rem;
