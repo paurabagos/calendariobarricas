@@ -1116,26 +1116,23 @@ h5,
   width: 100%;
 }
 .widget-vs img {
-  max-width: 120px;
+  max-width: 60px;
 }
 .widget-vs h3 {
   color: #fff;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 14px;
 }
 .widget-vs .vs > span {
   display: inline-block;
-  font-size: 16px;
+  font-size: 15px;
   background: #ee1e46;
-  padding: 5px 20px;
+  padding: 3px 15px;
   border-radius: 30px;
   color: #fff;
   font-weight: 700;
 }
 
-.widget-vs-contents {
-  padding-bottom: 0px;
-}
 .widget-vs-contents h4 {
   color: #ee1e46;
   font-size: 16px;
