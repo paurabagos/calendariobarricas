@@ -27,7 +27,7 @@ html {
     font-size: 14px;
 }
 body {
-    background: #005a3c;
+    background: #e5e5e5;
     font-family: "Barlow", sans-serif;
     color: #fff;
     min-height: 100vh;
@@ -285,7 +285,7 @@ body {
 
 /* ═══════════════════ FOOTNOTE ═══════════════════ */
 .footnote {
-    background: var(--teal);
+    background: black;
     text-align: center;
     padding: 3rem 1rem;
     font-size: 0.65rem;
