@@ -808,7 +808,7 @@ h5,
 }
 .hero,
 .hero > .container > .row {
-  height: 100vh;
+  height: 90vh;
   min-height: 500px;
 }
 .hero.overlay:before {
@@ -1554,4 +1554,12 @@ td {
 
 .little-less-dark {
   background-color: red !important;
+}
+
+.footnote {
+    background: #0d2235;
+    text-align: center;
+    padding: 3rem 1rem;
+    font-size: 0.65rem;
+    color: rgba(255, 255, 255, 0.6);
 }
