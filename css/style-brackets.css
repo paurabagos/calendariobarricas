@@ -250,7 +250,7 @@ body {
     border-bottom: none;
 }
 .seed {
-    font-size: 0.6rem;
+    font-size: 0.4rem;
     font-weight: 700;
     color: #111;
     min-width: 1.1rem;
@@ -258,6 +258,7 @@ body {
 .tn {
     flex: 1;
     padding: 0 0.22rem;
+    font-weight: bold;
 }
 
 /* special match variants */
