@@ -762,3 +762,8 @@ body {
     list-style-type: none;
     margin: 10px 0;
 }
+.ph {
+    font-style: italic;
+    color: slategray;
+    opacity: 0.8;
+}
