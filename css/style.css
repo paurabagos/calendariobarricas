@@ -1563,3 +1563,7 @@ td {
     font-size: 0.65rem;
     color: rgba(255, 255, 255, 0.6);
 }
+
+.spacer {
+    margin-top: 70px;
+}
